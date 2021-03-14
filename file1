@@ -1,0 +1,5 @@
+#chef bootstraping
+
+
+chef bootstrap <private ip of other node> --ssh-user ec2-user --sudo -i key.pem -N node1
+chef node list
