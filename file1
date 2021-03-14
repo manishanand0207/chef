@@ -8,3 +8,6 @@ knife node list
 knife node run_list set <node name> "recipe[cookbook_name::recipe_name]"
 
 
+
+#manual
+chef-client -zr "recipe[cookbook_name::recipe_name]"
